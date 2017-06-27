@@ -1,0 +1,48 @@
+body{
+    background-color: silver;
+    font-family: "Adobe Kaiti Std R";
+
+}
+#container{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#container h2{
+    color: grey;
+    text-align: center;
+}
+input[type=submit]{
+    width: 90%;
+    background-color: indianred;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.left{
+    float:left;
+    max-width: 45%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border:none;
+}
+textarea{
+    height: 120px;
+    box-sizing: border-box;
+    max-width: 45%;
+    margin: 10px;
+    border-radius: 4px;
+    border:none;
+    resize: none;
+}
