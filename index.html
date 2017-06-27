@@ -9,11 +9,17 @@
 <div id="container">
     <h2>Elegant Contact Form</h2>
     <form action="/action_page.php" method="post">
-        <input class="left" type="text" name="name" placeholder="Name"><br>
-        <input class="left" type="email" email="email" placeholder="Email Address"><br>
-        <input class="left" type="text" subject="subject" placeholder="Subject">
-        <textarea name="message" placeholder="Message"></textarea>
-        <input type="submit" value="Submit" >
+        <div id="left">
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="email" name="email" placeholder="Email Address"><br>
+        </div>
+        <input type="text" name="subject" placeholder="Subject">
+        <div id="textarea">
+            <textarea name="message" placeholder="Message"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+
+
     </form>
 
 </div>
