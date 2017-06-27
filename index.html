@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
 <body>
 <div id="container">
-    <h2>Elegant Contact Form</h2>
+    <h1>Elegant Contact Form</h1>
     <form action="/action_page.php" method="post">
         <div id="fields">
             <div id="left">
                 <input type="text" name="name" placeholder="Name"><br>
                 <input type="email" name="email" placeholder="Email Address"><br>
+                <input type="text" name="subject" placeholder="Subject">
             </div>
-            <input type="text" name="subject" placeholder="Subject">
-            <div id="textarea">
+            <div id="right">
                 <textarea name="message" placeholder="Message"></textarea>
             </div>
         </div>
