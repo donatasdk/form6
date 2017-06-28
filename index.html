@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Form</title>
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="container">
     <h1>Elegant Contact Form</h1>
     <form action="/action_page.php" method="post">
-        <div id="fields">
+        <div id="twocolumns">
             <div id="left">
-                <input type="text" name="name" placeholder="Name"><br>
-                <input type="email" name="email" placeholder="Email Address"><br>
-                <input type="text" name="subject" placeholder="Subject">
+                <input size="25" type="text" name="name" placeholder="Name"><br>
+                <input size="25" type="email" name="email" placeholder="Email Address"><br>
+                <input size="25" type="text" name="subject" placeholder="Subject">
+
             </div>
             <div id="right">
-                <textarea name="message" placeholder="Message"></textarea>
+                <textarea rows="10" cols="20" name="message" placeholder="Message"></textarea>
+
             </div>
         </div>
         <input type="submit" value="Submit">
     </form>
-
-
 </div>
+
 </body>
 </html>
